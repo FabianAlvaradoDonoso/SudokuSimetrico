@@ -1,0 +1,10 @@
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\bin\Debug\Sudoku.exe.config
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.csprojAssemblyReference.cache
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.Form1.resources
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.Properties.Resources.resources
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.csproj.GenerateResource.cache
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.csproj.CoreCompileInputs.cache
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.exe
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.pdb
