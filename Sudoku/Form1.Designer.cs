@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.C0_0 = new System.Windows.Forms.Label();
             this.C0_1 = new System.Windows.Forms.Label();
             this.C0_2 = new System.Windows.Forms.Label();
@@ -134,6 +135,8 @@
             this.C0_0.TabIndex = 0;
             this.C0_0.Text = "0";
             this.C0_0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.C0_0.MouseLeave += new System.EventHandler(this.C0_0_MouseLeave);
+            this.C0_0.MouseHover += new System.EventHandler(this.C0_0_MouseHover);
             // 
             // C0_1
             // 
@@ -849,6 +852,7 @@
             this.C0_3.TabIndex = 163;
             this.C0_3.Text = "0";
             this.C0_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.C0_3.MouseLeave += new System.EventHandler(this.C0_3_MouseLeave);
             // 
             // C0_5
             // 
@@ -1072,7 +1076,7 @@
             // 
             // btnRevelar
             // 
-            this.btnRevelar.Location = new System.Drawing.Point(471, 130);
+            this.btnRevelar.Location = new System.Drawing.Point(471, 176);
             this.btnRevelar.Name = "btnRevelar";
             this.btnRevelar.Size = new System.Drawing.Size(75, 23);
             this.btnRevelar.TabIndex = 190;
@@ -1082,7 +1086,7 @@
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(471, 209);
+            this.btnNuevo.Location = new System.Drawing.Point(471, 240);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(75, 23);
             this.btnNuevo.TabIndex = 191;
@@ -1110,11 +1114,12 @@
             // 
             // lblSolucion
             // 
+            this.lblSolucion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSolucion.Location = new System.Drawing.Point(476, 109);
             this.lblSolucion.Name = "lblSolucion";
-            this.lblSolucion.Size = new System.Drawing.Size(80, 13);
+            this.lblSolucion.Size = new System.Drawing.Size(80, 64);
             this.lblSolucion.TabIndex = 197;
-            this.lblSolucion.Text = "-";
+            this.lblSolucion.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
             // 
@@ -1127,7 +1132,7 @@
             // 
             // btnVolverLlenar
             // 
-            this.btnVolverLlenar.Location = new System.Drawing.Point(471, 171);
+            this.btnVolverLlenar.Location = new System.Drawing.Point(471, 208);
             this.btnVolverLlenar.Name = "btnVolverLlenar";
             this.btnVolverLlenar.Size = new System.Drawing.Size(75, 23);
             this.btnVolverLlenar.TabIndex = 198;
@@ -1176,7 +1181,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(568, 497);
+            this.ClientSize = new System.Drawing.Size(562, 497);
             this.Controls.Add(this.lblTotales);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.lblExito);
@@ -1271,8 +1276,13 @@
             this.Controls.Add(this.C0_1);
             this.Controls.Add(this.C0_0);
             this.Controls.Add(this.label80);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Análisis de Algoritmos";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
