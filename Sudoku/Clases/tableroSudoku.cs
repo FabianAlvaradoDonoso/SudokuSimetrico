@@ -28,10 +28,6 @@ namespace Sudoku.Clases
             this.matriz = new int[9, 9];
             this.dimension = 9;
             this.dimensioncaja = 3;
-            this.cantidadfallos = 0;
-            this.intentos = 0;
-
-            this.intentos++;
 
             muestra();
         }
@@ -41,7 +37,6 @@ namespace Sudoku.Clases
             llenarConCeros();
             llenarDiagonales();
             llenarResto(0, 3);
-            //imprimeTablero();
         }
 
         public int[,] casillasInversas()
@@ -60,8 +55,7 @@ namespace Sudoku.Clases
 
                 this.matriz[i, j] = 0;
                 this.matriz[inversoI, inversoJ] = 0;
-
-                //Console.Write("Posición (" + i + ", " + j +")\n");
+                
             }
             int[,] tableroImpreso = imprimeTablero();
             return tableroImpreso;
