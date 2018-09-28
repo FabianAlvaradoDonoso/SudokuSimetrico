@@ -112,6 +112,16 @@
             this.C6_6 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.btnRevelar = new System.Windows.Forms.Button();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.lblFallas = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lblSolucion = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnVolverLlenar = new System.Windows.Forms.Button();
+            this.lblExito = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblTotales = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // C0_0
@@ -1062,12 +1072,104 @@
             // 
             // btnRevelar
             // 
-            this.btnRevelar.Location = new System.Drawing.Point(471, 238);
+            this.btnRevelar.Location = new System.Drawing.Point(471, 130);
             this.btnRevelar.Name = "btnRevelar";
             this.btnRevelar.Size = new System.Drawing.Size(75, 23);
             this.btnRevelar.TabIndex = 190;
-            this.btnRevelar.Text = "Revelador";
+            this.btnRevelar.Text = "Ocultar";
             this.btnRevelar.UseVisualStyleBackColor = true;
+            this.btnRevelar.Click += new System.EventHandler(this.btnRevelar_Click);
+            // 
+            // btnNuevo
+            // 
+            this.btnNuevo.Location = new System.Drawing.Point(471, 209);
+            this.btnNuevo.Name = "btnNuevo";
+            this.btnNuevo.Size = new System.Drawing.Size(75, 23);
+            this.btnNuevo.TabIndex = 191;
+            this.btnNuevo.Text = "Nuevo";
+            this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            // 
+            // lblFallas
+            // 
+            this.lblFallas.AutoSize = true;
+            this.lblFallas.Location = new System.Drawing.Point(525, 79);
+            this.lblFallas.Name = "lblFallas";
+            this.lblFallas.Size = new System.Drawing.Size(13, 13);
+            this.lblFallas.TabIndex = 195;
+            this.lblFallas.Text = "0";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(468, 78);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(37, 13);
+            this.label4.TabIndex = 194;
+            this.label4.Text = "Fallos:";
+            // 
+            // lblSolucion
+            // 
+            this.lblSolucion.Location = new System.Drawing.Point(476, 109);
+            this.lblSolucion.Name = "lblSolucion";
+            this.lblSolucion.Size = new System.Drawing.Size(80, 13);
+            this.lblSolucion.TabIndex = 197;
+            this.lblSolucion.Text = "-";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(468, 96);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.TabIndex = 196;
+            this.label3.Text = "Solución:";
+            // 
+            // btnVolverLlenar
+            // 
+            this.btnVolverLlenar.Location = new System.Drawing.Point(471, 171);
+            this.btnVolverLlenar.Name = "btnVolverLlenar";
+            this.btnVolverLlenar.Size = new System.Drawing.Size(75, 23);
+            this.btnVolverLlenar.TabIndex = 198;
+            this.btnVolverLlenar.Text = "Rellenar";
+            this.btnVolverLlenar.UseVisualStyleBackColor = true;
+            this.btnVolverLlenar.Click += new System.EventHandler(this.btnVolverLlenar_Click);
+            // 
+            // lblExito
+            // 
+            this.lblExito.AutoSize = true;
+            this.lblExito.Location = new System.Drawing.Point(525, 66);
+            this.lblExito.Name = "lblExito";
+            this.lblExito.Size = new System.Drawing.Size(13, 13);
+            this.lblExito.TabIndex = 200;
+            this.lblExito.Text = "0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(468, 65);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.TabIndex = 199;
+            this.label2.Text = "Exitosas:";
+            // 
+            // lblTotales
+            // 
+            this.lblTotales.AutoSize = true;
+            this.lblTotales.Location = new System.Drawing.Point(525, 53);
+            this.lblTotales.Name = "lblTotales";
+            this.lblTotales.Size = new System.Drawing.Size(13, 13);
+            this.lblTotales.TabIndex = 202;
+            this.lblTotales.Text = "0";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(468, 52);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(45, 13);
+            this.label6.TabIndex = 201;
+            this.label6.Text = "Totales:";
             // 
             // Form1
             // 
@@ -1075,6 +1177,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(568, 497);
+            this.Controls.Add(this.lblTotales);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lblExito);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnVolverLlenar);
+            this.Controls.Add(this.lblSolucion);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblFallas);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.btnRevelar);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.C8_8);
@@ -1161,6 +1273,7 @@
             this.Controls.Add(this.label80);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1252,6 +1365,16 @@
         private System.Windows.Forms.Label C6_6;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Button btnRevelar;
+        private System.Windows.Forms.Button btnNuevo;
+        private System.Windows.Forms.Label lblFallas;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblSolucion;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnVolverLlenar;
+        private System.Windows.Forms.Label lblExito;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblTotales;
+        private System.Windows.Forms.Label label6;
     }
 }
 

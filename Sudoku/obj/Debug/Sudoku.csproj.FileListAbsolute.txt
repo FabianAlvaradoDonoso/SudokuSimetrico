@@ -8,3 +8,4 @@ C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.csproj.
 C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.csproj.CoreCompileInputs.cache
 C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.exe
 C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.pdb
+C:\Users\Fabian Alvarado\Desktop\SudokuSimetrico\Sudoku\obj\Debug\Sudoku.Jugar.resources
